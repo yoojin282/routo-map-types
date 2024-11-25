@@ -59,17 +59,12 @@ declare namespace routo.maps {
   }
 
   export interface MarkerLabel {
-    className?: string;
-
-    color?: string;
-
-    fontFamily?: string;
-
-    fontSize?: string;
-
-    fontWeight?: string;
-
     text: string;
+    className?: string;
+    color?: string;
+    fontFamily?: string;
+    fontSize?: string;
+    fontWeight?: string;
   }
 
   export interface MarkerOptions {
@@ -85,7 +80,7 @@ declare namespace routo.maps {
 
     draggable?: boolean | null;
 
-    icon?: string | routo.maps.Icon | null | routo.maps.Symbol;
+    icon?: string | routo.maps.Icon | routo.maps.Symbol | null;
 
     label?: string | routo.maps.MarkerLabel | null;
 

@@ -72,16 +72,11 @@ declare namespace routo.maps.Data {
 
   export interface StyleOptions {
     clickable?: boolean;
-    cursor?: string;
-    draggable?: boolean;
-    editable?: boolean;
     fillColor?: string;
     fillOpacity?: number;
-    icon?: string | routo.maps.Icon | routo.maps.Symbol;
-    icons?: routo.maps.IconSequence[];
+    icon?: string | routo.maps.Icon;
     label?: string | routo.maps.MarkerLabel;
     opacity?: number;
-    shape?: routo.maps.MarkerShape;
     strokeColor?: string;
     strokeOpacity?: number;
     strokeWeight?: number;

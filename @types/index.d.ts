@@ -20,3 +20,4 @@
 /// <reference path="rectangle.d.ts" />
 /// <reference path="traffic-layer.d.ts" />
 /// <reference path="marker-clusterer.d.ts" />
+/// <reference path="parking-layer.d.ts" />
