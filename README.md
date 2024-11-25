@@ -5,6 +5,7 @@ TypeScript Definitions for routo.maps.\*
 ## 목적
 
 Routo Map Api 는 React 컴포넌트가 존재하지 않아 여기저기 참조해서 타입 정의를 만들어 보았습니다.
+아직 기본작동만 가능한 정도고 추가기능은 추후 작업 예정입니다.
 
 ## 사용법
 
