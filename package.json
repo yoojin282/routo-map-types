@@ -9,11 +9,12 @@
   },
   "author": {
     "name": "In-gi, Park",
-    "email": "yoojin282@gmail.com"
+    "email": "yoojin282@gmail.com",
+    "url": "https://github.com/yoojin282"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoojin282/routo-map-types.git"
+    "url": "https://github.com/yoojin282/routo-map-types.git"
   },
   "keywords": [
     "routo",
@@ -23,5 +24,9 @@
     "types"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yoojin282/routo-map-types"
+  "homepage": "https://github.com/yoojin282/routo-map-types",
+  "bugs": {
+    "url": "https://github.com/yoojin282/routo-map-types/issues",
+    "email": "yoojin282@gmail.com"
+  }
 }
