@@ -1,0 +1,27 @@
+{
+  "name": "@yoojin282/routo.maps.d.ts",
+  "version": "0.1.0",
+  "description": "Routo Map Type Definitions",
+  "types": "./@types/index.d.ts",
+  "typeRoots": "./@types",
+  "scripts": {
+    "type": "tsc --project ./tsconfig.json"
+  },
+  "author": {
+    "name": "In-gi, Park",
+    "email": "yoojin282@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoojin282/routo-map-types.git"
+  },
+  "keywords": [
+    "routo",
+    "routo map",
+    "routo maps",
+    "routo.maps.d.ts",
+    "types"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yoojin282/routo-map-types"
+}
