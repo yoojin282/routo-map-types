@@ -65,6 +65,7 @@ declare namespace routo.maps.Data {
     forEachLatLng(callback: (a: routo.maps.LatLng) => void): void;
     getArray(): Geometry[];
     getAt(n: number): Geometry;
+    getBounds(): routo.maps.LatLngBounds;
     getLength(): number;
     getType(): string;
   }

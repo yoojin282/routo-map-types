@@ -17,4 +17,5 @@ declare namespace routo.maps {
   }
 
   export type ImagePosition = Position;
+  export type StrokePosition = Position;
 }
