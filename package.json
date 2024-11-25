@@ -1,6 +1,6 @@
 {
   "name": "@yoojin282/routo-map-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Routo Map Type Definitions",
   "types": "./@types/index.d.ts",
   "typeRoots": "./@types",
@@ -19,8 +19,7 @@
   "keywords": [
     "routo",
     "routo map",
-    "routo maps",
-    "routo.maps.d.ts",
+    "routo map types",
     "types"
   ],
   "license": "MIT",
