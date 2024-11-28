@@ -1,6 +1,6 @@
 {
   "name": "@yoojin282/routo-map-types",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Routo Map Type Definitions",
   "types": "./@types/index.d.ts",
   "typeRoots": "./@types",
