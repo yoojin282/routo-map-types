@@ -12,7 +12,7 @@ declare namespace routo.maps {
     /**
      * Returns the bounds of this rectangle.
      */
-    getBounds(): routo.maps.LatLngBounds | null;
+    getBounds(): routo.maps.LatLngBounds;
     /**
      * Returns whether this rectangle can be dragged by the user.
      */
@@ -33,7 +33,7 @@ declare namespace routo.maps {
      * Sets the bounds of this rectangle.
      */
     setBounds(
-      bounds: routo.maps.LatLngBounds | null | routo.maps.LatLngBoundsLiteral
+      bounds: routo.maps.LatLngBounds | routo.maps.LatLngBoundsLiteral
     ): void;
     /**
      * If set to <code>true</code>, the user can drag this rectangle over the
