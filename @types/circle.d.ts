@@ -9,16 +9,14 @@ declare namespace routo.maps {
         | routo.maps.CircleOptions
     );
 
-    getBounds(): routo.maps.LatLngBounds | null;
-    getCenter(): routo.maps.LatLng | null;
+    getBounds(): routo.maps.LatLngBounds;
+    getCenter(): routo.maps.LatLng;
     getDraggable(): boolean;
     getEditable(): boolean;
     getMap(): routo.maps.Map | null;
     getRadius(): number;
 
-    setCenter(
-      center: routo.maps.LatLng | null | routo.maps.LatLngLiteral
-    ): void;
+    setCenter(center: routo.maps.LatLng | routo.maps.LatLngLiteral): void;
     setClickable(clickable: boolean): void;
     setDraggable(draggable: boolean): void;
     setEditable(editable: boolean): void;
