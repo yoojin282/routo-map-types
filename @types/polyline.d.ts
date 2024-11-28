@@ -3,6 +3,8 @@ declare namespace routo.maps {
   export class Polyline extends routo.maps.MVCObject {
     constructor(opts?: routo.maps.PolylineOptions | null);
 
+    getBounds(): LatLngBounds;
+
     getDraggable(): boolean;
 
     getEditable(): boolean;
