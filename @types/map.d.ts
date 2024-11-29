@@ -54,6 +54,10 @@ declare namespace routo.maps {
     position?: ControlPosition | null;
   }
 
+  export interface ScaleControlOptions extends FullscreenControlOptions {}
+
+  export interface ZoomControlOptions extends FullscreenControlOptions {}
+
   export class MapTypeRegistry extends routo.maps.MVCObject {
     set(id: string, mapType: any): void;
   }
@@ -62,18 +66,6 @@ declare namespace routo.maps {
     latLngBounds: routo.maps.LatLngBounds | routo.maps.LatLngBoundsLiteral;
 
     strictBounds?: boolean;
-  }
-
-  export interface ScaleControlOptions {
-    style?: ScaleControlStyle | null;
-  }
-
-  export enum ScaleControlStyle {
-    DEFAULT = 0.0,
-  }
-
-  export interface ZoomControlOptions {
-    position?: ControlPosition | null;
   }
 
   export interface MapTypeStyle {
