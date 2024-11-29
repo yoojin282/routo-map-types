@@ -22,3 +22,4 @@
 /// <reference path="marker-clusterer.d.ts" />
 /// <reference path="parking-layer.d.ts" />
 /// <reference path="drawing.d.ts" />
+/// <reference path="traffic.d.ts" />
