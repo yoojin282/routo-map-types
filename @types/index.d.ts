@@ -23,3 +23,4 @@
 /// <reference path="parking-layer.d.ts" />
 /// <reference path="drawing.d.ts" />
 /// <reference path="traffic.d.ts" />
+/// <reference path="pixel.d.ts" />
