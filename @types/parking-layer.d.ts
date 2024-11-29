@@ -3,7 +3,7 @@ declare namespace routo.maps {
   export interface ParkingLayerOptions {
     map?: routo.maps.Map | null;
     floorPosition: ControlPosition;
-    clickCallback: VoidFunction;
+    clickCallback: Function;
     parkingLotId: string;
     floorInfos: Object;
     parkingLotNameCode: string;

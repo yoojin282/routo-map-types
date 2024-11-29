@@ -8,7 +8,7 @@ declare namespace routo.maps {
     markers: routo.maps.Marker[];
     gridSize: number;
     clusterStyles: any[];
-    onClusterClick: VoidFunction;
+    onClusterClick: Function;
   }
 
   export class MarkerClusterer extends routo.maps.MVCObject {
